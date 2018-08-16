@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-poc-ui';
+  data: Array<any> = [
+    { text: "My Profile" },
+    { text: "Friend Requests" },
+    { text: "Account Settings" },
+    { text: "Support" },
+    { text: "Log out" }
+  ];
 }
